@@ -2,7 +2,21 @@
     color: navy;
     margin: 50px;
 }
-.more_recipes {
+#more_recipes {
     font-family: Arial, Helvetica, sans-serif;
 }
+    & footer a
+    {
+        background: red;
+        border-radius: 4px;
+        padding: 4px 8px;
+        text-decoration: none;
+        color: white;
+
+        & :hover {
+            background: maroon;
+
+        }
+    }
+
 

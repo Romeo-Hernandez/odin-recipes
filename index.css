@@ -18,5 +18,10 @@
 
         }
     }
+.sentence {
+    padding: 4px 8px;
+    background: green;
+    border-radius: 4px;
+}
 
 

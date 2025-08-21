@@ -2,6 +2,9 @@
     color: navy;
     margin: 50px;
     text-align: center;
+    padding: 50px;
+    border: 20px;
+    margin: 40px;
 }
 #more_recipes {
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +41,47 @@
     color: greenyellow;
     background-color: gray;
 }
+.item {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.3s;
+    background-color: cyan;
+}
+
+.flexbox {
+    margin: 20px;
+    margin-left: 50px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    box-shadow: 30px 30px 10px rgba(11, 59, 3, 0.3);
+    transition: ease-in-out 0.3s;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+
+
+}
+
+.one {
+    background-color: lightcoral;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+.two {
+    background-color: lightgoldenrodyellow;
+}
+.three {
+    background-color: lightsalmon;
+}
+
+
 
     
 
